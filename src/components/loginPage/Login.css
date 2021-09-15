@@ -1,0 +1,47 @@
+.login {
+	height: 100vh;
+}
+
+.login-form {
+	/* background: pink; */
+	margin: auto 0;
+	height: 60%;
+	padding: 0 10%;
+}
+
+.login-form h1 {
+	text-align: center;
+	padding: 1rem 0;
+}
+
+.login-bg-image {
+	/* background-color: aquamarine; */
+	height: 70%;
+	margin: auto 0;
+}
+
+.button-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.forgot-password-link {
+	display: block;
+	padding-bottom: 10px;
+}
+
+.login-btn {
+	border-radius: 50px;
+	width: 35%;
+}
+
+.redirect-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.new-user-btn {
+	border-radius: 50px;
+	padding: 10px 1rem;
+}
