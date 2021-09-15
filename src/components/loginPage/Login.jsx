@@ -5,7 +5,7 @@ import bgImage from "../../assests/pic.png";
 function Login() {
 	return (
 		<div className="row login">
-			<div className="col-5 login-form">
+			<div className=" col-md-5 col-sm-12 login-form">
 				<h1>Take control of how you revise for your exam </h1>
 				<form class="row g-3">
 					<div class="col-12">
@@ -47,7 +47,7 @@ function Login() {
 					</div>
 				</form>
 			</div>
-			<div className="col-7 login-bg-image">
+			<div className="col-md-7 col-sm-12  login-bg-image">
 				<img src={bgImage} alt="background" />
 			</div>
 		</div>
